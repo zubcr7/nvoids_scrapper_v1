@@ -1,0 +1,60 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Bot: Run Safe Dry-Run",
+      "type": "shell",
+      "command": "python3 main.py run --dry-run",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Bot: Run Live (Continuous)",
+      "type": "shell",
+      "command": "python3 main.py run --live",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Dashboard: Launch Web Server",
+      "type": "shell",
+      "command": "python3 main.py dashboard",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Stats: Show Today's Applications",
+      "type": "shell",
+      "command": "python3 main.py stats",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Stats: Clear Dry-Run Records",
+      "type": "shell",
+      "command": "python3 main.py clear-dry-runs",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

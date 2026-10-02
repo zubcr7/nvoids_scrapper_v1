@@ -1,0 +1,12 @@
+Hi {{recruiter_name}},
+
+I recently came across a job opportunity for the {{job_title}} role. I have 10+ years of experience in a similar field. Please review my resume and reach out if it aligns with your requirements.
+
+Experience: 10+ years
+Visa: H1B from 2024-2027
+
+Best regards,
+Nithin Chiguru
+Phone: +1 (312) 358-4463
+Email: nithin.chiguru9@gmail.com
+LinkedIn: https://www.linkedin.com/in/nithinch/

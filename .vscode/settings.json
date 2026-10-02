@@ -1,0 +1,10 @@
+{
+  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "terminal.integrated.env.osx": {
+    "PYTHONUNBUFFERED": "1"
+  },
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true
+  }
+}

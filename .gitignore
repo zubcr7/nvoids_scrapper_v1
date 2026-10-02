@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+/.env
+/.env.*
+!/.env.example
+
+/resumes/
+/data/*.db
+/data/*.db-*
+/data/*.json
+/config/*.json
